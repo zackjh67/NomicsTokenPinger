@@ -59,7 +59,7 @@ const callNomicsApi = async (page) => {
     console.log(paramdUrl);
     try {
         const response = await got(paramdUrl);
-        // console.log(response.body);
+        console.log(response.body);
         console.log(' ');
         console.log('##NEWREQUEST##')
     } catch (error) {
