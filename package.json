@@ -1,0 +1,25 @@
+{
+  "name": "nomicstokenpinger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackjh67/NomicsTokenPinger.git"
+  },
+  "author": "zmoney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zackjh67/NomicsTokenPinger/issues"
+  },
+  "homepage": "https://github.com/zackjh67/NomicsTokenPinger#readme",
+  "dependencies": {
+    "got": "^11.8.2",
+    "lodash": "^4.17.21",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {}
+}
