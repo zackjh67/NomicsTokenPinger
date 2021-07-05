@@ -6,7 +6,7 @@ const argv = yargs(hideBin(process.argv)).argv;
 const got = require('got');
 
 // comma seperated list of currency Ids ex. BTC,ETH,XRP. without these, it queries all coins on nomics
-const ids = argv.ids;
+const ids = argv.ids ? `${argv.ids}` : undefined;
 // how long to wait until getting the data again IN SECONDS, rate limited to 1 second
 // if this is set and above 1, then it takes that value. Otherwise, defaults to 1
 const pingInterval = argv.pingInterval > 1 ? argv.pingInterval : 1;
